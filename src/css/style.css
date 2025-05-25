@@ -1,62 +1,59 @@
- body {
-      font-family:"Playfair Display", serif;
-    }
+body {
+  font-family: "Playfair Display", serif;
+}
 
-    .menu {
-      position: fixed;
-      left: 0;
-      top: 0;
-      width: 200px;
-      height: 100%;
-      background-color: #666;
-      transform: translateX(-170px);
-      transition: transform 0.3s ease;
-     
-    }
+.menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #666;
+  transform: translateX(-170px);
+  transition: transform 0.3s ease;
+}
 
-    .menu:hover {
-      transform: translateX(0);
-    }
+.menu:hover {
+  transform: translateX(0);
+}
 
-    .menu-here {
-      position: absolute;
-      right: -30px;
-      top: 50%;
-      transform: rotate(90deg) ;
-      color: white;
-      cursor: pointer;
-      font-weight: bold;
-      transition:  0.3s ease;
-      
-    }
+.menu-here {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: rotate(90deg);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
 
-    .menu:hover .menu-here {
-      opacity: 0;
-      pointer-events: none;
-    }
+.menu:hover .menu-here {
+  opacity: 0;
+  pointer-events: none;
+}
 
-    .menu ul {
-      list-style: none;
-      padding: 20px;
-      margin: 0;
-    }
+.menu ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
 
-    .menu ul li {
-      margin: 15px 0;
-      color: white;
-      font-weight: bold;
-      transition: color 0.3s ease;
-      cursor: pointer;
-      
-    }
+.menu ul li {
+  margin: 15px 0;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
 
-    .menu ul li:hover {
-      color: orange;
-    }
+.menu ul li:hover {
+  color: orange;
+}
 
-    .menu ul li::before {
-      content: "♦";
-      font-size: 20px;
-      color: orange;
-      margin-right: 8px;
-    }
+.menu ul li::before {
+  content: "♦";
+  font-size: 20px;
+  color: orange;
+  margin-right: 8px;
+}
